@@ -1,5 +1,3 @@
 #!/bin/bash
-file_path="/tmp/iamafile"
-file_type=$(file -b "$file_path")
-echo "The type of the file is: $file_type"
+file /tmp/iamafile 
 
